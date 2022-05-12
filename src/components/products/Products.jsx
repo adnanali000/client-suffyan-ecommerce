@@ -18,11 +18,6 @@ const Products = ({ categories, onAddToCart }) => {
         
         <div className={classes.toolbar} />
 
-
-
-
-
-
         {/* <Typography style={{display:'flex', color:'#02494d',justifyContent:'center',alignItems:'center',marginTop:'30px' }} variant="h4">Our Products</Typography> */}
         {categories.map((category, index) => {
           return (
